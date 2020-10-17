@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form{
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.form p{
+    width: 500px;
+}
+
+.form > p + p {
+    padding-top: 10px;
+}
+
+.form > ul {
+    margin-top: 10px;
+}
+
+.form > iframe{
+    margin-top: 1%;
+}
+p + p + ul {
+    position: relative;
+    left: -18%;
+}
+
